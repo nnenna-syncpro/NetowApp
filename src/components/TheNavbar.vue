@@ -13,7 +13,7 @@
             <form class="searchForm" action="" @submit.prevent="">
                 <div class="form-control">
                     <input type="search" ref="searchInput" class="searchForm__input">
-                    <base-icon>
+                    <base-icon mode="iconButton icon">
                         <icon-search></icon-search>
                     </base-icon>
                 </div>
@@ -37,6 +37,20 @@ export default {
 </script>
 
 <style scoped>
+.iconButton {
+    overflow: visible;
+    width: 15px;
+    background-color: transparent;
+    border: none;
+}
+
+.icon {
+    color: #fff;
+    position: relative;
+    right: 24px;
+    top: 2px;
+}
+
 .navbar-brand-logo {
     padding: 1.6px 8px;
     border: 1px solid;

@@ -9,17 +9,19 @@
             </template>
         </banner-content-item>
     </div>
+    <banner-carousel-indicators></banner-carousel-indicators>
 </template>
 
 <script>
 import BannerContentItem from "./BannerContentItem.vue";
 import BaseButton from './UI/BaseButton.vue';
-
+import BannerCarouselIndicators from "./BannerCarouselIndicators.vue";
 
 export default {
     components: {
         BannerContentItem,
-        BaseButton
+        BaseButton,
+        BannerCarouselIndicators
     }
 }
 </script>
