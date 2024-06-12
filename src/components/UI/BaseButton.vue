@@ -12,7 +12,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<!-- <style scoped>
 button {
     background-color: transparent;
     cursor: pointer;
@@ -65,4 +65,4 @@ button:active {
     line-height: 1.5;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
-</style>
+</style> -->

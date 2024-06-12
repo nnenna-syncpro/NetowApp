@@ -27,14 +27,12 @@
 </template>
 
 <script>
-import BaseIcon from './UI/BaseIcon.vue';
 import IconPreviousArrowWhite from './icons/IconPreviousArrowWhite.vue';
 import IconNextArrowWhite from './icons/IconNextArrowWhite.vue';
 import IconMouse from "./icons/IconMouse.vue"
 
 export default {
     components: {
-        BaseIcon,
         IconPreviousArrowWhite,
         IconNextArrowWhite,
         IconMouse
@@ -85,7 +83,6 @@ export default {
 
 a {
     padding: 0 4px;
-
 }
 
 .carousel-arrows {

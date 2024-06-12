@@ -24,13 +24,11 @@
 
 <script>
 import NavbarItem from "./NavbarItem.vue";
-import BaseIcon from './UI/BaseIcon.vue';
 import IconSearch from "./icons/IconSearch.vue";
 
 export default {
     components: {
         NavbarItem,
-        BaseIcon,
         IconSearch
     }
 }
