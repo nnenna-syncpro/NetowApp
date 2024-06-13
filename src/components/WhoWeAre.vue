@@ -21,6 +21,7 @@
 .row {
     display: flex;
     padding: 80px 64px;
+    background-color: rgba(248, 245, 242, 0.97);
 }
 
 img {

@@ -3,6 +3,7 @@ import TheNavbar from "./components/TheNavbar.vue"
 import TheBanner from "./components/TheBanner.vue"
 import WhoWeAre from "./components/WhoWeAre.vue"
 import CoreServices from "./components/CoreServices.vue"
+import OurServices from "./components/OurServices.vue"
 </script>
 
 <template>
@@ -11,4 +12,5 @@ import CoreServices from "./components/CoreServices.vue"
   <the-banner></the-banner>
   <who-we-are></who-we-are>
   <core-services></core-services>
+  <our-services></our-services>
 </template>
