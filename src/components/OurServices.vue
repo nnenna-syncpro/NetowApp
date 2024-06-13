@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="ourServices">
         <div>
             <h4>What We Can Do</h4>
         </div>
@@ -34,7 +34,7 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.ourServices {
     background-color: rgba(248, 245, 242, 0.97);
     padding: 80px 200px;
 

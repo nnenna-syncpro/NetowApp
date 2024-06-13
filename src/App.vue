@@ -4,6 +4,7 @@ import TheBanner from "./components/TheBanner.vue"
 import WhoWeAre from "./components/WhoWeAre.vue"
 import CoreServices from "./components/CoreServices.vue"
 import OurServices from "./components/OurServices.vue"
+import OurTestimonials from "./components/OurTestimonials.vue"
 </script>
 
 <template>
@@ -13,4 +14,5 @@ import OurServices from "./components/OurServices.vue"
   <who-we-are></who-we-are>
   <core-services></core-services>
   <our-services></our-services>
+  <our-testimonials></our-testimonials>
 </template>
