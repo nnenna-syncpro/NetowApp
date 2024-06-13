@@ -9,19 +9,19 @@
         </div>
         <div class="carousel-mouse">
             <a href="">
-                <base-icon mode="iconButton">
+                <base-icon-button mode="iconButton">
                     <icon-mouse></icon-mouse>
-                </base-icon>
+                </base-icon-button>
             </a>
             <p>Scroll for More</p>
         </div>
         <div class="carousel-arrows">
-            <base-icon mode="iconButton">
+            <base-icon-button mode="iconButton">
                 <icon-previous-arrow-white></icon-previous-arrow-white>
-            </base-icon>
-            <base-icon mode="iconButton">
+            </base-icon-button>
+            <base-icon-button mode="iconButton">
                 <icon-next-arrow-white></icon-next-arrow-white>
-            </base-icon>
+            </base-icon-button>
         </div>
     </div>
 </template>
@@ -30,12 +30,14 @@
 import IconPreviousArrowWhite from './icons/IconPreviousArrowWhite.vue';
 import IconNextArrowWhite from './icons/IconNextArrowWhite.vue';
 import IconMouse from "./icons/IconMouse.vue"
+import BaseIconButton from './UI/BaseIconButton.vue';
 
 export default {
     components: {
         IconPreviousArrowWhite,
         IconNextArrowWhite,
-        IconMouse
+        IconMouse,
+        BaseIconButton
     }
 }
 </script>

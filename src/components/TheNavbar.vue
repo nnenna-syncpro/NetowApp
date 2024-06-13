@@ -13,9 +13,9 @@
             <form class="searchForm" action="" @submit.prevent="">
                 <div class="form-control">
                     <input type="search" ref="searchInput" class="searchForm__input">
-                    <base-icon mode="iconButton icon">
+                    <base-icon-button mode="iconButton icon">
                         <icon-search></icon-search>
-                    </base-icon>
+                    </base-icon-button>
                 </div>
             </form>
         </div>
@@ -25,11 +25,13 @@
 <script>
 import NavbarItem from "./NavbarItem.vue";
 import IconSearch from "./icons/IconSearch.vue";
+import BaseIconButton from './UI/BaseIconButton.vue';
 
 export default {
     components: {
         NavbarItem,
-        IconSearch
+        IconSearch,
+        BaseIconButton
     }
 }
 </script>
