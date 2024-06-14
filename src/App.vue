@@ -5,6 +5,7 @@ import WhoWeAre from "./components/WhoWeAre.vue"
 import CoreServices from "./components/CoreServices.vue"
 import OurServices from "./components/OurServices.vue"
 import OurTestimonials from "./components/OurTestimonials.vue"
+import OurBlog from "./components/OurBlog.vue"
 </script>
 
 <template>
@@ -15,4 +16,5 @@ import OurTestimonials from "./components/OurTestimonials.vue"
   <core-services></core-services>
   <our-services></our-services>
   <our-testimonials></our-testimonials>
+  <our-blog></our-blog>
 </template>

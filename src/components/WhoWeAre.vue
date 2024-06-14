@@ -83,7 +83,7 @@ button {
     align-items: center;
 }
 
-button:hover,
+/* button:hover,
 button:active,
 button:active {
     background-color: rgba(255, 255, 255, 0.85);
@@ -102,5 +102,5 @@ button:active {
     padding: 6px 12px;
     line-height: 1.5;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
+} */
 </style>
