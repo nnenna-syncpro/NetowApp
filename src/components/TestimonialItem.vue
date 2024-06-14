@@ -75,6 +75,7 @@ img {
 .reviewerTitle {
     font-size: 80%;
     text-align: center;
+    margin-bottom: 16px;
 }
 
 .pointer {

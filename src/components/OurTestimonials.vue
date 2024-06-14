@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="brands">
-
+            <brand-testimonials></brand-testimonials>
         </div>
     </div>
 </template>
@@ -59,11 +59,12 @@ import TestimonialItem from './TestimonialItem.vue';
 import ImagePersonSamuel from "../assets/img/person-samuel.png";
 import ImagePersonFagbo from "../assets/img/person-fagbo.png";
 import ImagePersonRita from "../assets/img/person-rita.jpg";
-
+import BrandTestimonials from './BrandTestimonials.vue';
 
 export default {
     components: {
-        TestimonialItem
+        TestimonialItem,
+        BrandTestimonials
     },
     data() {
         return {
