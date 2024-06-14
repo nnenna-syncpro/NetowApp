@@ -6,6 +6,8 @@ import CoreServices from "./components/CoreServices.vue"
 import OurServices from "./components/OurServices.vue"
 import OurTestimonials from "./components/OurTestimonials.vue"
 import OurBlog from "./components/OurBlog.vue"
+// import CallToAction from "./components/CallToAction.vue"
+import BaseFooter from "./components/UI/BaseFooter.vue"
 </script>
 
 <template>
@@ -17,4 +19,6 @@ import OurBlog from "./components/OurBlog.vue"
   <our-services></our-services>
   <our-testimonials></our-testimonials>
   <our-blog></our-blog>
+  <!-- <call-to-action></call-to-action> -->
+  <base-footer></base-footer>
 </template>
