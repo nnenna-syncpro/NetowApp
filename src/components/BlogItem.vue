@@ -72,8 +72,8 @@ export default {
 }
 
 img {
-    /* 333*282 */
-    width: 400px;
+    /* originally - 333*282, 400px breaks the page,  */
+    width: 372px;
     height: 311px;
 }
 </style>

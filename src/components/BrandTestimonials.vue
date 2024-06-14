@@ -145,7 +145,8 @@ export default {
     border: 1px solid rgba(196, 196, 196, 1);
     color: rgba(42, 42, 42, 0.41);
     border-radius: 4px;
-    width: 258px;
+    /* was 258px, 224px is the breaking point */
+    width: 223px;
     margin: 10px;
 
     display: flex;

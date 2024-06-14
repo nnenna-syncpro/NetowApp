@@ -9,7 +9,7 @@
                 <P>60 Bode Thomas</P>
                 <P class="secondline">Street, Surulere, Lagos</P>
                 <div class="p">
-                    <a href="">infor@netowsolutions.com</a>
+                    <a href="">info@netowsolutions.com</a>
                 </div>
                 <div class="p">
                     <a href="">+234 811 288 3405</a>
