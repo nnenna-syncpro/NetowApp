@@ -65,4 +65,18 @@ h2 {
     text-align: center;
 
 }
+
+@media screen and (max-width: 576px) {
+    h2 {
+        top: 18%;
+        font-size: 32px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 868px) {
+    h2 {
+        top: 17%;
+        /* font-size: 40px; */
+    }
+}
 </style>

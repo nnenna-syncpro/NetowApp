@@ -118,4 +118,22 @@ h3 {
     background-color: #e93314;
     color: #fff;
 } */
+
+@media screen and (max-width: 768px) {
+    .testimonialItems {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 975px) {
+    .testimonialItems {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .testimonialItem {
+        /* flex: 50%; */
+        flex-basis: 50%;
+    }
+}
 </style>

@@ -76,4 +76,21 @@ h4 {
 .blogCard {
     padding: 0px 8px;
 }
+
+@media screen and (max-width: 576px) {
+    .blogCards {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 854px) {
+    .blogCards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .blogCard {
+        flex-basis: 50%;
+    }
+}
 </style>

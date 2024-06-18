@@ -195,4 +195,10 @@ export default {
 .circle__active {
     background-color: #bbb;
 }
+
+/* @media screen and (max-width: 992px) {
+    .coreServiceItems {
+        flex-direction: column;
+    }
+} */
 </style>

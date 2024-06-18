@@ -27,6 +27,8 @@
 img {
     padding: 48px 0px;
     padding-bottom: 24px;
+    width: 100%;
+    height: auto;
 }
 
 .column {
@@ -103,4 +105,10 @@ button:active {
     line-height: 1.5;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 } */
+
+@media (max-width: 1045px) {
+    .row {
+        flex-direction: column;
+    }
+}
 </style>

@@ -51,4 +51,63 @@ h4 {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+@media screen and (max-width: 752px) {
+    /* .serviceItems {
+        justify-content: flex-start;
+        flex-grow: 2;
+    } */
+
+    h4 {
+        padding: 0;
+    }
+
+    .ourServices {
+        padding: 80px 80px;
+    }
+
+}
+
+@media (min-width: 752px) and (max-width: 852px) {
+    .ourServices {
+        /* 130px padding breaks @811; 120px padding breaks @791; 110px padding breaks @711; 100px padding breaks @751;*/
+        padding: 80px 100px;
+    }
+
+    h4 {
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 852px) and (max-width: 952px) {
+    .ourServices {
+        /* 150px padding breaks @851; */
+        padding: 80px 150px;
+    }
+
+    h4 {
+        padding: 0 25px;
+    }
+}
+
+@media (min-width: 952px) and (max-width: 1120px) {
+    .ourServices {
+        /* 150px padding breaks @851; */
+        padding: 80px 130px;
+    }
+
+    h4 {
+        padding: 0 25px;
+    }
+}
+
+@media (min-width: 1120px) and (max-width: 1230px) {
+    .ourServices {
+        padding: 80px 150px;
+    }
+
+    h4 {
+        padding: 0 25px;
+    }
+}
 </style>

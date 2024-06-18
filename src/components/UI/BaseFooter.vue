@@ -163,4 +163,34 @@ a {
     border-top: 1px solid rgba(196, 196, 196, 0.5);
     padding-top: 16px;
 }
+
+@media (max-width: 1045px) {
+    .footerRow {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .location {
+        padding: 0px;
+        margin-top: 32px;
+    }
+
+    .links {
+        margin-bottom: 32px;
+    }
+
+    .footerLinks {
+        /* font-size: 20px; */
+
+    }
+
+    .socialIcons {
+        margin-bottom: 32px;
+
+    }
+
+    .footerContainer {
+        padding: 80px 64px;
+    }
+}
 </style>

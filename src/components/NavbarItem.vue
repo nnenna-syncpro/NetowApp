@@ -21,4 +21,10 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+@media (max-width: 1045px) {
+    .navbar__nav--item {
+        padding-left: 20px;
+    }
+}
 </style>

@@ -56,4 +56,30 @@ export default {
     background-color: transparent;
     border: none;
 }
+
+@media screen and (max-width: 712px) {
+    .item {
+        flex-basis: 100%;
+    }
+}
+
+/* @media (min-width: 576px) and (max-width: 768px) {
+    .item {
+        flex-basis: 50%;
+    }
+} */
+
+@media (min-width: 1120px) and (max-width: 1201px) {
+
+    .item {
+        flex-basis: 30%;
+        flex-grow: 2;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1230px) {
+    .item {
+        flex-basis: 32%;
+    }
+}
 </style>

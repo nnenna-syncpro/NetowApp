@@ -1,25 +1,35 @@
 <template>
-    <nav class="navbar">
-        <a class="navbar-brand-logo"><img src="../assets/img/netow_logo_small.png" alt=""></a>
-        <div class="navbar__content">
-            <ul class="navbar__nav">
-                <navbar-item>Home</navbar-item>
-                <navbar-item>About</navbar-item>
-                <navbar-item>Our services</navbar-item>
-                <navbar-item>Blog</navbar-item>
-                <navbar-item>Careers</navbar-item>
-                <navbar-item>Contact Us</navbar-item>
-            </ul>
-            <form class="searchForm" action="" @submit.prevent="">
-                <div class="form-control">
-                    <input type="search" ref="searchInput" class="searchForm__input">
-                    <base-icon-button mode="iconButton icon">
-                        <icon-search></icon-search>
-                    </base-icon-button>
-                </div>
-            </form>
-        </div>
-    </nav>
+    <label class="hamburger-menu">
+        <input type="checkbox">
+    </label>
+    <div class="navContainer">
+        <nav class="navbar">
+            <a class="navbar-brand-logo"><img src="../assets/img/netow_logo_small.png" alt=""></a>
+            <div class="navbar__content">
+                <ul class="navbar__nav">
+                    <navbar-item>Home</navbar-item>
+                    <navbar-item>About</navbar-item>
+                    <navbar-item>Our services</navbar-item>
+                    <navbar-item>Blog</navbar-item>
+                    <navbar-item>Careers</navbar-item>
+                    <navbar-item>Contact Us</navbar-item>
+                </ul>
+                <form class="searchForm" action="" @submit.prevent="">
+                    <div class="form-control">
+                        <input type="search" ref="searchInput" class="searchForm__input">
+                        <base-icon-button mode="iconButton icon">
+                            <icon-search></icon-search>
+                        </base-icon-button>
+                    </div>
+                </form>
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </div>
 </template>
 
 <script>
@@ -32,7 +42,7 @@ export default {
         NavbarItem,
         IconSearch,
         BaseIconButton
-    }
+    },
 }
 </script>
 
@@ -116,4 +126,69 @@ ul {
 }
 
 .searchForm__input:focus {}
+
+/* would need to move logo out of nav and give a wrapper parent which we shall set position to fixed and width 100% */
+
+.hamburger {
+    cursor: pointer;
+    align-items: right;
+    display: none;
+    /* border: 1px solid rgba(196, 196, 196, 1); */
+    padding: 5px;
+}
+
+.bar {
+    height: 3px;
+    width: 40px;
+    background: rgba(196, 196, 196, 1);
+    margin: 5px 0px;
+    opacity: 0.8;
+
+    /* margin-bottom: 10px; */
+    border-radius: 7px;
+    transition: .4s;
+}
+
+.hamburger-menu input {
+    display: none;
+}
+
+@media (max-width: 1045px) {
+    nav .navbar__nav {
+        display: grid;
+        position: absolute;
+        background: #20345c;
+        width: 100%;
+        top: 50px;
+        left: 0px;
+        transform: translateY(0%);
+        /* z-index: -1; */
+        transition: .6s;
+
+    }
+
+    .navbar__content {
+        /* display: grid;
+        position: absolute;
+        background: #20345c;
+        width: 100%;
+        top: 50px;
+        left: 0px;
+        transition: .6s; */
+        /* transform: translateY(-100%); */
+        z-index: -1;
+    }
+
+    nav .navbar__nav {}
+
+    .hamburger {
+        display: grid;
+        height: min-content;
+        cursor: pointer;
+        margin-right: 18px -10px 0 0;
+    }
+
+    .bar {}
+
+}
 </style>

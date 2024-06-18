@@ -77,4 +77,16 @@ button:active {
     line-height: 1.5;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+
+@media screen and (max-width: 576px) {
+    button {
+        top: 67%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 868px) {
+    button {
+        top: 87%;
+    }
+}
 </style>
